@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Toaster } from '@/components/ui/sonner';
+import { Toaster } from './components/ui/sonner';
 import axios from 'axios';
 import './App.css';
 
