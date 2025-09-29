@@ -373,7 +373,7 @@ async def mark_attendance(class_id: str, attendance_data: BulkAttendanceRequest,
     return {"message": "Attendance marked successfully"}
 
 @api_router.get("/attendance/{class_id}")
-async def get_class_attendance(class_id: str, date: Optional[str] = None, request: Request):
+async def get_class_attendance(class_id: str, request: Request, date: Optional[str] = None):
     """Get attendance for a class"""
     user = await get_current_user(request)
     if not user:
