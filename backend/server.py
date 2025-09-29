@@ -318,7 +318,9 @@ async def create_class(class_data: CreateClassRequest, request: Request):
 @api_router.get("/classes", response_model=List[Class])
 async def get_classes(request: Request):
     """Get all classes"""
-    await get_current_user(request)  # Require authentication
+    user = await get_current_user(request)
+    if not user:
+        raise HTTPException(status_code=401, detail="Authentication required")
     
     classes = await db.classes.find().to_list(1000)
     return [Class(**parse_from_mongo(cls)) for cls in classes]
