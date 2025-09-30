@@ -154,7 +154,7 @@ const AdminDashboard = () => {
         <div className="table-header">
           <h3 className="text-lg font-bold">System Overview</h3>
           <p className="text-sm opacity-70 mt-2">
-            Welcome to Rakesh School Attendance Management System. Use the tabs above to manage users and classes.
+            Welcome to SM Joshi Attendance Management System. Use the tabs above to manage users and classes.
           </p>
         </div>
       </div>
@@ -390,7 +390,7 @@ const AdminDashboard = () => {
       <div className="dashboard-header">
         <div className="flex items-center justify-between w-full">
           <div>
-            <h1 className="text-2xl font-bold text-white">Rakesh School - Admin Dashboard</h1>
+            <h1 className="text-2xl font-bold text-white">SM Joshi - Admin Dashboard</h1>
             <p className="text-white opacity-70">Welcome back, {user.name}</p>
           </div>
           <button

@@ -4,6 +4,9 @@ import { Toaster } from './components/ui/sonner';
 import axios from 'axios';
 import './App.css';
 
+// Configure axios to include credentials (cookies) in all requests
+axios.defaults.withCredentials = true;
+
 // Import components
 import LoginPage from './components/LoginPage';
 import AdminDashboard from './components/AdminDashboard';

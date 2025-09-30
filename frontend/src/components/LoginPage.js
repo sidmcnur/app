@@ -10,7 +10,7 @@ const LoginPage = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <h1 className="login-title">Rakesh School</h1>
+          <h1 className="login-title">SM Joshi</h1>
           <p className="login-subtitle">Student Attendance Management System</p>
         </div>
         

@@ -5,7 +5,7 @@ const LoadingScreen = () => {
     <div className="loading-container">
       <div className="loading-spinner"></div>
       <p className="text-white mt-4 text-lg font-medium opacity-70">
-        Loading Rakesh School Attendance...
+        Loading SM Joshi Attendance...
       </p>
     </div>
   );

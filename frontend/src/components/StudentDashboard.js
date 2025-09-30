@@ -73,7 +73,7 @@ const StudentDashboard = () => {
       <div className="dashboard-header">
         <div className="flex items-center justify-between w-full">
           <div>
-            <h1 className="text-2xl font-bold text-white">Rakesh School - Student Dashboard</h1>
+            <h1 className="text-2xl font-bold text-white">SM Joshi - Student Dashboard</h1>
             <p className="text-white opacity-70">Welcome back, {user.name}</p>
           </div>
           <button
